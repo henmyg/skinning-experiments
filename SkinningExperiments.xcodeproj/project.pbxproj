@@ -12,6 +12,10 @@
 		B5227BE71E843A690024AF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5227BE61E843A690024AF30 /* Assets.xcassets */; };
 		B5227BEA1E843A690024AF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5227BE81E843A690024AF30 /* LaunchScreen.storyboard */; };
 		B5227BF71E843BE00024AF30 /* YellowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5227BF61E843BE00024AF30 /* YellowBackground.swift */; };
+		B5227BF91E84435D0024AF30 /* CurrentSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5227BF81E84435D0024AF30 /* CurrentSkin.swift */; };
+		B5227BFB1E844C250024AF30 /* BlueBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5227BFA1E844C250024AF30 /* BlueBackground.swift */; };
+		B5227BFD1E844CF20024AF30 /* SkinA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5227BFC1E844CF20024AF30 /* SkinA.swift */; };
+		B5227BFF1E844E880024AF30 /* SkinB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5227BFE1E844E880024AF30 /* SkinB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B5227BE91E843A690024AF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5227BEB1E843A690024AF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5227BF61E843BE00024AF30 /* YellowBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YellowBackground.swift; path = "View/Skin A/YellowBackground.swift"; sourceTree = "<group>"; };
+		B5227BF81E84435D0024AF30 /* CurrentSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentSkin.swift; path = View/CurrentSkin.swift; sourceTree = "<group>"; };
+		B5227BFA1E844C250024AF30 /* BlueBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueBackground.swift; path = "View/Skin B/BlueBackground.swift"; sourceTree = "<group>"; };
+		B5227BFC1E844CF20024AF30 /* SkinA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkinA.swift; path = "View/Skin A/SkinA.swift"; sourceTree = "<group>"; };
+		B5227BFE1E844E880024AF30 /* SkinB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkinB.swift; path = "View/Skin B/SkinB.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 				B5227BF21E843B8B0024AF30 /* Skin A */,
 				B5227BF31E843B920024AF30 /* Skin B */,
 				B5227BE31E843A690024AF30 /* Main.storyboard */,
+				B5227BF81E84435D0024AF30 /* CurrentSkin.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -77,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B5227BF61E843BE00024AF30 /* YellowBackground.swift */,
+				B5227BFC1E844CF20024AF30 /* SkinA.swift */,
 			);
 			name = "Skin A";
 			sourceTree = "<group>";
@@ -84,6 +94,8 @@
 		B5227BF31E843B920024AF30 /* Skin B */ = {
 			isa = PBXGroup;
 			children = (
+				B5227BFA1E844C250024AF30 /* BlueBackground.swift */,
+				B5227BFE1E844E880024AF30 /* SkinB.swift */,
 			);
 			name = "Skin B";
 			sourceTree = "<group>";
@@ -160,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5227BFD1E844CF20024AF30 /* SkinA.swift in Sources */,
+				B5227BFF1E844E880024AF30 /* SkinB.swift in Sources */,
 				B5227BE01E843A690024AF30 /* AppDelegate.swift in Sources */,
+				B5227BF91E84435D0024AF30 /* CurrentSkin.swift in Sources */,
 				B5227BF71E843BE00024AF30 /* YellowBackground.swift in Sources */,
+				B5227BFB1E844C250024AF30 /* BlueBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +339,7 @@
 				B5227BF01E843A690024AF30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
